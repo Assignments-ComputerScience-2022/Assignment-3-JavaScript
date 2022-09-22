@@ -9,7 +9,6 @@ Vue.createApp({
   
     methods: {
         repeatNumberOfTimes(word, times) {
-            
             if (word && times) {
                 if(times > 0) {
                 this.result = word.repeat(times);
@@ -20,6 +19,5 @@ Vue.createApp({
             } 
             else this.result = "something went wrong";
         }
-     
     },
   }).mount("#app");
