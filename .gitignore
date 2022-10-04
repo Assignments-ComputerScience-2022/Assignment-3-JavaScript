@@ -20,3 +20,5 @@ rad.json
 *.flf
 #Test results file
 **/.DS_Store
+#adding .vscode to .gitignore
+.vscode/

@@ -9,23 +9,23 @@
     <title>Mandatory Assignment 3</title>
 </head>
 <body>
-    <h1>String Duplication</h1>
+    <h2 style="margin-left: 20px;">String Duplication</h2>
+
     <div id="app">
-        <div>
+        <div style="margin-left: 20px;">
             <div>
-                <label for="word">Message:</label>
-                <input type="text" v-model="word" placeholder="Type a word" />
+                <label for="word"><b>Message:</b></label>
+                <input type="text" v-model="word" placeholder="Type a word"  style="margin: 0 5px 0 2px"/>
            
-                <label for="times">How Many:</label>
-                <input type="number" v-model="times" placeholder="Type a number" />
+                <label for="times"><b>How Many:</b></label>
+                <input type="number" v-model="times" placeholder="Type a number"  style="margin: 0 5px 0 2px"/>
 
-                <button class="btn btn-success" v-on:click="repeatNumberOfTimes(word, times)">DO IT</button>
+                <button class="btn btn-info" v-on:click="repeatNumberOfTimes(word, times)">DO IT</button>
             </div>
             <div>
-                <label>Result: </label>
-                <b>{{result}}</b>
+                <label style="margin-right: 2px;"><b>Result:</b></label>
+                {{result}}
             </div>
-
         </div>
     </div>
 
